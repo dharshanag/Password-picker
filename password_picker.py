@@ -10,8 +10,3 @@ while True:
     special_char = random.choice(string.punctuation)
     password = adjectives + noun + str(number) + special_char
     print('Your new password is: %s' % password + '\n')
-
-    response = input('Would you like another password? type y or n: ')
-    if response == 'n':
-        print('Thank you for using the password picker! \n')
-        break
